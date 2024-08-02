@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+}
+.Header {
+  background-color: rgba(200, 86, 29, 0.889);
+  text-align: center;
+  color: black;
+}
+.options {
+  text-align: center;
+  margin: 5px;
+  color: white;
+}
+.options label:hover {
+  background-color: rgba(246, 85, 11, 0.941);
+  border-radius: 2px;
+}
+.options label {
+  background-color: rgba(200, 86, 29, 0.889);
+  border-radius: 2px;
+  padding: 2px;
+  color: black;
+}
+.options input {
+  background-color: rgb(221, 215, 215);
+  border-radius: 3px;
+}
+.options button {
+  background-color: rgb(72, 72, 101);
+  border-radius: 3px;
+  padding: 2px;
+  color: white;
+  cursor: pointer;
+}
+.options button:hover {
+  padding: 3px;
+}
