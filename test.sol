@@ -2,5 +2,6 @@
 pragma solidity 0.8.0;
 
 contract test {
-    uint256 public X;
+    uint256 public y;
+
 }
