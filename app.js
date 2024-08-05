@@ -5,7 +5,7 @@ class BankAccount {
     this.balance = 0;
     this.TxHistory = [];
   }
-
+  
   // to add amount to the account balance
   deposit(amount) {
     if (amount > 0) {
@@ -16,6 +16,7 @@ class BankAccount {
     }
   }
 
+  // testing comment while using git
   // to withdraw amount from account balance
   withdraw(amount) {
     if (amount > 0 && amount <= this.balance) {
